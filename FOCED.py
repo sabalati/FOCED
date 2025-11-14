@@ -39,7 +39,7 @@ except Exception:
 # -------------------
 NEO4J_URI  = os.getenv("NEO4J_URI", "bolt://localhost:7687")
 NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
-NEO4J_PASS = os.getenv("NEO4J_PASS", "mnbvcxza")
+NEO4J_PASS = os.getenv("NEO4J_PASS", "Password")
 
 INPUT_FILE = "2013_full.xes"     # or "log.jsonocel" / "log.ocel.json"
 BACKUP_DIR = "backups"
@@ -467,3 +467,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
