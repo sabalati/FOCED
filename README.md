@@ -1,4 +1,4 @@
-FOCED — Formal Object-Centric Event Data Pipeline
+FOCED Formal Object-Centric Event Data Pipeline
 
 FOCED is a Python and Alloy project for transforming XES or OCEL event logs into a Formal Object-Centric Event Data model.
 It validates logical constraints and loads the result into Neo4j for graph-based analysis.
@@ -19,7 +19,7 @@ Saves validated backups as JSON
 
 Input Types
 
-.xes — standard XES logs
+.xes standard XES logs
 
 .jsonocel or .ocel.json — OCEL object-centric logs
 
@@ -30,8 +30,8 @@ Object	{id, type, attrs}
 Event_Object	{event_id, object_id, role}
 Alloy Models
 
-FOCED_Alloy_MM.als — defines the metamodel for event-object relationships
+FOCED_Alloy_MM.als  defines the metamodel for event-object relationships
 
-Enhanced_FOCED_Constraints.als — adds extra structural and temporal constraints
+Enhanced_FOCED_Constraints.als  adds extra structural and temporal constraints
 
 Both models can be opened in Alloy Analyzer for validation.
