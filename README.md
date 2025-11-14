@@ -21,7 +21,7 @@ Input Types
 
 .xes standard XES logs
 
-.jsonocel or .ocel.json — OCEL object-centric logs
+.jsonocel or .ocel.json OCEL object-centric logs
 
 Core Model
 Component	Description
