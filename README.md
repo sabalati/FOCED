@@ -3,7 +3,7 @@
 **FOCED** is a Python and Alloy project for transforming **XES** or **OCEL** event logs into a **Formal Object-Centric Event Data (FOCED)** model.
 It validates logical constraints and loads the result into **Neo4j** for graph-based analysis.
 
-## 🔍 Features
+## Features
 
 * Parses **XES** and **OCEL JSON** logs using the [`pm4py`](https://pm4py.fit.fraunhofer.de/) library
 * Normalizes data into an **object-centric schema** (`events`, `objects`, `event_object`)
@@ -12,7 +12,7 @@ It validates logical constraints and loads the result into **Neo4j** for graph-b
 * Includes example **Cypher queries** for exploration
 * Saves validated backups as **JSON**
 
-## 📂 Input Types
+## Input Types
 
 | File Type                  | Description                      |
 | -------------------------- | -------------------------------- |
