@@ -1,5 +1,4 @@
-# [**Code of FOCED – Formal Object-Centric Event Data Pipeline**](https://arxiv.org/abs/2511.07263) accepted in [**1st International Workshop on Data-Centric AI for Intelligent Agents
-**](https://dcai4ia.univ-tours.fr/)
+# [**Code of FOCED – Formal Object-Centric Event Data Pipeline**](https://arxiv.org/abs/2511.07263) accepted in DCAI4IA workshop at 23rd International Conference on Service-Oriented Computing (ICSOC2025)
 
 **FOCED** is a Python and Alloy project for transforming **XES** or **OCEL** event logs into a **Formal Object-Centric Event Data (FOCED)** model.
 It validates logical constraints and loads the result into **Neo4j** for graph-based analysis.
